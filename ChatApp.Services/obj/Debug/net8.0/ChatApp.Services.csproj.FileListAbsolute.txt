@@ -1,0 +1,15 @@
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/bin/Debug/net8.0/ChatApp.Services.deps.json
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/bin/Debug/net8.0/ChatApp.Services.dll
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/bin/Debug/net8.0/ChatApp.Services.pdb
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/obj/Debug/net8.0/ChatApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/obj/Debug/net8.0/ChatApp.Services.AssemblyInfoInputs.cache
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/obj/Debug/net8.0/ChatApp.Services.AssemblyInfo.cs
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/obj/Debug/net8.0/ChatApp.Services.csproj.CoreCompileInputs.cache
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/obj/Debug/net8.0/ChatApp.Services.dll
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/obj/Debug/net8.0/refint/ChatApp.Services.dll
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/obj/Debug/net8.0/ChatApp.Services.pdb
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/obj/Debug/net8.0/ref/ChatApp.Services.dll
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/bin/Debug/net8.0/ChatApp.Data.dll
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/bin/Debug/net8.0/ChatApp.Data.pdb
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/obj/Debug/net8.0/ChatApp.Services.csproj.AssemblyReference.cache
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/obj/Debug/net8.0/ChatApp..15D1CE8D.Up2Date
