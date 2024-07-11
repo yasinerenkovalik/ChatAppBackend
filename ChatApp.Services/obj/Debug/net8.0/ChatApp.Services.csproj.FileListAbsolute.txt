@@ -13,3 +13,4 @@
 /Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/bin/Debug/net8.0/ChatApp.Data.pdb
 /Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/obj/Debug/net8.0/ChatApp.Services.csproj.AssemblyReference.cache
 /Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/obj/Debug/net8.0/ChatApp..15D1CE8D.Up2Date
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/obj/Debug/net8.0/ChatApp.Services.sourcelink.json
