@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mpf1jLT5AlM=",
+  "dgSpecHash": "DX7VSSHOEMY=",
   "success": true,
   "projectFilePath": "/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp.Services/ChatApp.Services.csproj",
   "expectedPackageFiles": [
+    "/Users/yasinerenkovalik/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/yasinerenkovalik/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/yasinerenkovalik/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
     "/Users/yasinerenkovalik/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
