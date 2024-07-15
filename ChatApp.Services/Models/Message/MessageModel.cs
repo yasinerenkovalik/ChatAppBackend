@@ -1,7 +1,7 @@
 ﻿
 namespace ChatApp.Services;
 
-public class MessageModel
+public record MessageModel
 {
     public string Content { get; set; }
     public int? UserId { get; set; }
