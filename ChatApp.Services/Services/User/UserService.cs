@@ -28,7 +28,9 @@ public class UserService : IUserService
 
     public async Task<User> GetByIdAsync(int id)
     {
-        return await _userRepository.GetByIdAsync(id);
+
+        var user = await _userRepository.GetByIdAsync(id);
+        return user;
     }
 
     public async Task<IReadOnlyList<User>> ListAllAsync(PaginationModel paginationModel)

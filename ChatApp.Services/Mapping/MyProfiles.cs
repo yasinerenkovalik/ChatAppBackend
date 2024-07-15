@@ -11,6 +11,9 @@ public class MyProfiles:Profile
         CreateMap<User,UserCreateModel>().ReverseMap();
         CreateMap<User,UserModel>().ReverseMap();
         CreateMap<User,UserUpdateModel>().ReverseMap();
+        CreateMap<Message,MessageModel>().ReverseMap();
+        CreateMap<Message,MessageCreateModel>().ReverseMap();
+        CreateMap<Message,MessageUpdateModel>().ReverseMap();
     }
 
 }
