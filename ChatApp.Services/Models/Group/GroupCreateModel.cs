@@ -1,6 +1,6 @@
 ﻿namespace ChatApp.Services;
 
-public record  GroupModel
+public record class GroupCreateModel
 {
     public string Name { get; set; }
     public string Description { get; set; }

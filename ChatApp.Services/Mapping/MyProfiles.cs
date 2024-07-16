@@ -14,6 +14,10 @@ public class MyProfiles:Profile
         CreateMap<Message,MessageModel>().ReverseMap();
         CreateMap<Message,MessageCreateModel>().ReverseMap();
         CreateMap<Message,MessageUpdateModel>().ReverseMap();
+        CreateMap<Group,GroupCreateModel>().ReverseMap();
+        CreateMap<Group,GroupModel>().ReverseMap();
+        CreateMap<Group,GroupUpdateModel>().ReverseMap();
+
     }
 
 }
