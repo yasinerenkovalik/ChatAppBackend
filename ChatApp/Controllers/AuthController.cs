@@ -1,11 +1,13 @@
 ﻿using ChatApp.Data;
 using ChatApp.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ChatApp;
 [Route("api/[controller]")]
 [ApiController]
+[Authorize]
 public class AuthController:Controller
 {
     private readonly IUserService _userService;
@@ -16,6 +18,7 @@ public class AuthController:Controller
         _userService = userService;
         _configuration=configuration;
     }
+
     [HttpPost("login")]
 
     public async Task<ReturnModel> Login([FromBody]LoginModel loginModel)
