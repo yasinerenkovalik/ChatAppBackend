@@ -42,4 +42,9 @@ public class UserService : IUserService
     {
         return await _userRepository.UpdateAsync(entity);
     }
+    public async Task<User> GetByUserNameAndPasswordAsync(string username,string password)
+    {
+        return await _userRepository.GetByUserNameAndPasswordAsync(username,password);
+
+    }
 }
