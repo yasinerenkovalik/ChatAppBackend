@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ChatApp;
 [Route("api/[controller]")]
 [ApiController]
-[Authorize]
+
 public class AuthController:Controller
 {
     private readonly IUserService _userService;

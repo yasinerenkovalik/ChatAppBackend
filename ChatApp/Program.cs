@@ -19,10 +19,20 @@ builder.Services.AddSwaggerGen(c=>{
         Description="jwt authorization header using the Bearer scheme",
         Name="Authorization",
         In=ParameterLocation.Header,
-        Type=SecuritySchemeType.ApiKey,
+        Type=SecuritySchemeType.Http,
         Scheme="Bearer"
     });
-    c.AddSecurityRequirement(new )
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement{
+        {
+        new OpenApiSecurityScheme{
+            Reference=new OpenApiReference{
+                Type=ReferenceType.SecurityScheme,
+            Id="Bearer"
+            }
+        },
+        Array.Empty<string>()
+        }
+    });
     
     });
 

@@ -2,12 +2,13 @@
 using Azure.Core;
 using ChatApp.Data;
 using ChatApp.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ChatApp;
 [Route("api/[controller]")]
 [ApiController]
-
+[Authorize]
 public class MessageController:Controller
 {
     private readonly IMessageService _messageService;
