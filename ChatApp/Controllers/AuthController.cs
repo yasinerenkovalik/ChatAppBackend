@@ -1,7 +1,5 @@
 ﻿using ChatApp.Data;
 using ChatApp.Services;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ChatApp;

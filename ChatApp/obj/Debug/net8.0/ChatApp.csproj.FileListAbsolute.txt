@@ -142,3 +142,14 @@
 /Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp/obj/Debug/net8.0/ChatApp.sourcelink.json
 /Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp/bin/Debug/net8.0/AutoMapper.dll
 /Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp/bin/Debug/net8.0/Microsoft.AspNetCore.Connections.Abstractions.dll
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp/bin/Debug/net8.0/Microsoft.AspNetCore.Http.Connections.Client.dll
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp/bin/Debug/net8.0/Microsoft.AspNetCore.Http.Connections.Common.dll
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp/bin/Debug/net8.0/Microsoft.AspNetCore.SignalR.Client.dll
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp/bin/Debug/net8.0/Microsoft.AspNetCore.SignalR.Client.Core.dll
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp/bin/Debug/net8.0/Microsoft.AspNetCore.SignalR.Common.dll
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp/bin/Debug/net8.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp/bin/Debug/net8.0/Microsoft.Extensions.Features.dll
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/yasinerenkovalik/projeler/chatapp/backendk/ChatApp/bin/Debug/net8.0/Microsoft.Extensions.Options.dll

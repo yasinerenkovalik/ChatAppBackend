@@ -1,5 +1,6 @@
 using System.Text;
 using AutoMapper;
+using ChatApp;
 using ChatApp.Data;
 using ChatApp.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -36,6 +37,7 @@ builder.Services.AddSwaggerGen(c=>{
     
     });
 
+builder.Services.AddSignalR();
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ChatAppDbContext>(options=>{
@@ -45,6 +47,16 @@ builder.Services.AddDbContext<ChatAppDbContext>(options=>{
 
 builder.Services.RegisterRepositories();
 builder.Services.RegisterServices();
+builder.Services.AddSingleton<ISignalrConnection,SignalrConnection>();
+
+//cors
+
+var corsPolicyName="CorsPolcy";
+builder.Services.AddCors(options=>{
+    options.AddPolicy(corsPolicyName,builder=>{
+        builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+    });
+});
 
 //AUTO MAPPER
 var mapperConfig=new MapperConfiguration(mc=>{
@@ -68,6 +80,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 
 
 var app = builder.Build();
+
+app.UseCors(corsPolicyName);
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -75,8 +89,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
-app.MapDefaultControllerRoute();
+app.UseRouting();
+
+//app.UseHttpsRedirection();
+//app.MapDefaultControllerRoute();
+app.UseEndpoints(endpoints=>{
+    endpoints.MapControllers();
+    endpoints.MapHub<ChatHub>("/chathub");
+
+});
 
 app.UseAuthorization();
 app.Run();
